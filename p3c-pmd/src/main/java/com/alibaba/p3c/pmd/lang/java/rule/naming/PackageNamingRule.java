@@ -24,13 +24,14 @@ import net.sourceforge.pmd.lang.ast.Node;
 /**
  * [Mandatory] Package should be named in lowercase characters. There should be only one English word after
  * each dot. Package names are always in singular format while class name can be in plural format if necessary.
+ * modify at 2018 -09-20 except end with EX,Ex
  *
  * @author changle.lq
  * @date 2017/04/16
  */
 public class PackageNamingRule extends AbstractXpathRule {
     private static final String XPATH = "//PackageDeclaration/Name"
-        + "[not (matches(@Image, '^[a-z0-9]+(\\.[a-z][a-z0-9]*)*$'))]";
+        + "[not (matches(@Image, '^[a-z0-9]+(\\.[a-z][a-z0-9]*)*(EX|Ex)?$'))]";
 
     public PackageNamingRule() {
         setXPath(XPATH);

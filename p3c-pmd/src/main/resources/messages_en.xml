@@ -29,7 +29,7 @@
         <![CDATA[variable [%s] not conform to the lowerCamelCase]]>
     </entry>
     <entry key="java.naming.PackageNamingRule.violation.msg">
-        <![CDATA[Package [%s] should be named in lowercase characters]]>
+        <![CDATA[Package [%s] should be named in lowercase (except end with EX,Ex) characters]]>
     </entry>
     <entry key="java.naming.ServiceOrDaoClassShouldEndWithImplRule.violation.msg">
         <![CDATA[class [%s] should be ended with Impl]]>

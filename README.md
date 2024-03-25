@@ -39,36 +39,3 @@ CollectionInitShouldAssignCapacityRule_COLLECTION_TYPE=["HashMap","ConcurrentHas
 ClassNamingShouldBeCamelRule_CLASS_NAMING_WHITE_LIST=["Hbase","HBase","ID"]
 
 ```
-
-# 已修复的issues
-
-### 本地
-
-- [issues-29](https://github.com/godfather1103/p3c/issues/29)
-- [issues-27](https://github.com/godfather1103/p3c/issues/27)
-
-### 官方
-
-- [issues-898](https://github.com/alibaba/p3c/issues/898)
-- [issues-900](https://github.com/alibaba/p3c/issues/900)
-
-# 群组(Group)
-
-使用过程中如有疑问，可以加群提问
-
-![WXQ](pic/WXQ-300.jpg)
-
-
-# 捐赠(Donate)
-
-你的馈赠将助力我更好的去贡献，谢谢！  
-Your gift will help me to contribute better, thank you!
-
-[PayPal](https://paypal.me/godfather1103?locale.x=zh_XC)
-
-支付宝(Alipay)  
-![支付宝](pic/hb-300.png)
-![支付宝](pic/Alipay-300.png)
-
-微信(WeChat)  
-![微信支付](pic/WeChat-300.png)
